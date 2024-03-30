@@ -82,19 +82,11 @@ elements.forEach((element)=>{
     <span class="condition">${element.condition}</span>
 
     `
-// const btn=document.querySelector('.btn')
-// btn.addEventListener('click',function(){
-  
-//     stack.forEach((stackElem)=>{
-//         let box=document.createElement('div')
-//         box.classList.add('box')
-//         box.innerHTML=`
-//         <p>${stack.stackElem}</p>
-        
-//         `
-//         cardWrapper.appendChild(Bo)
-//     })
-// })
+    // const btn=document.querySelector('.btn')
+    // element.stack.forEach((item)=>{
+    //    return item;
+    // })
+
     if(element.condition=='Done'){
 card.style.background='rgb(104, 196, 104)'
     }
@@ -108,8 +100,17 @@ card.style.background='rgb(204, 219, 117)'
     cardWrapper.appendChild(card)
 
     
-}
+})
+// btn.addEventListener('click',function(){
+//     let box=document.createElement('div')
+//     box.classList.add('box')
+//     box.innerHTML=`
+//     <p>${item}</p>
+    
+//     `
+//     cardWrapper.appendChild(box)
+//     })
 
-)
+
 let timer=document.querySelector('.timer')
 timer.innerHTML=date
